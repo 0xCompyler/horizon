@@ -1,0 +1,11 @@
+.pin-input {
+  input {
+    &:focus {
+      @apply outline-none border-2 border-accent-400;
+    }
+  }
+}
+
+::selection {
+  @apply bg-zinc-400 text-zinc-600;
+}
