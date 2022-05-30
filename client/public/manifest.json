@@ -1,0 +1,10 @@
+{
+	"manifest_version": 3,
+	"name": "Horizon Client",
+	"description": "Horizon Client",
+	"externally_connectable": {
+		"ids": ["*"],
+		"matches": ["*://localhost/*", "https://*.vercel.app/*"]
+	},
+	"permissions": ["storage", "activeTab", "scripting", "tabs", "windows"]
+}
